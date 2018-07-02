@@ -1,0 +1,124 @@
+/*Nav - Home Logo */
+#ebb_logo {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    padding: 4px;
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+    color:white;
+}
+
+#newport_photo {
+    border: solid;
+}
+
+div.jumbotron {
+    padding-top: 15px;
+    background-color:#c2d5e8;
+}
+
+
+/*About Page */
+
+.page_title {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+#ebb_aboutme {
+    border-radius: 10%;
+    float: right
+}
+
+/*About Me Page */
+
+div.col-sm-12 h1 {
+    font-weight: bold;
+    font-style: italic
+}
+
+.about_wrap {
+    background-color: #c2d5e8;
+}
+
+.about_contents {
+    font-size: 20px;
+    list-style: none;
+}
+
+.about_keypoint {
+    font-style: italic;
+    font-weight: bold;   
+}
+
+ul#quick_hit_list li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #57B0FF;
+}
+
+ul#interest_list li:before {
+    content: '\f067';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #57B0FF;
+}
+
+ul#sports_teams {
+    list-style: none;
+}
+
+ul#sports_teams li {
+}
+
+
+/*Work Page*/
+div.col-sm-2 ul {
+    list-style:  none;
+    padding-left: 0px;
+}
+
+.job_row {
+    margin-bottom: 20px;
+}
+
+.job_title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 150%;
+    color: #000000;
+}
+
+.job_detail {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #5f5e5e;
+}
+
+.job_description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.achievement {
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+
+span.achievement {
+    padding-left:40px;
+    font-size: 120%;
+}
