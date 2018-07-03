@@ -1,0 +1,18 @@
+$bg_color: #c2d5e8;
+
+div.row_education {
+    background-color: $bg_color;
+
+    ul {
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+}
+
+div.row {
+	table {
+		border: solid;
+		border-color: $bg_color;
+	}
+}

@@ -9,6 +9,7 @@
     color:white;
 }
 
+/* Home Page */
 #newport_photo {
     border: solid;
 }
@@ -18,9 +19,7 @@ div.jumbotron {
     background-color:#c2d5e8;
 }
 
-
 /*About Page */
-
 .page_title {
     font-family: 'Lobster', cursive;
     font-size: 60px;
@@ -32,7 +31,6 @@ div.jumbotron {
 }
 
 /*About Me Page */
-
 div.col-sm-12 h1 {
     font-weight: bold;
     font-style: italic
@@ -70,55 +68,4 @@ ul#interest_list li:before {
 
 ul#sports_teams {
     list-style: none;
-}
-
-ul#sports_teams li {
-}
-
-
-/*Work Page*/
-div.col-sm-2 ul {
-    list-style:  none;
-    padding-left: 0px;
-}
-
-.job_row {
-    margin-bottom: 20px;
-}
-
-.job_title {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 150%;
-    color: #000000;
-}
-
-.job_detail {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-    color: #5f5e5e;
-}
-
-.job_description {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 15px;
-    color: #000000;
-    margin-bottom: 3px;
-}
-
-.achievement {
-    list-style: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: italic;
-    font-weight: 900;
-}
-
-span.achievement {
-    padding-left:40px;
-    font-size: 120%;
 }
