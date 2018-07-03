@@ -1,0 +1,32 @@
+$color1: #000000;
+$color2: #5f5e5e;
+
+%base_work {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.work_title {
+    @extend %base_work;
+    font-style: italic;
+    color: $color1;
+}
+
+div.col-sm-12 p {
+    @extend %base_work;
+    font-style: normal;
+    font-size: 16px;
+    color: $color2;
+    margin-bottom: 3px;
+}
+
+.work_description {
+    @extend %base_work;
+    font-style: normal;
+    font-size: 15px;
+    color: $color1;
+}
+
+ul.work_description span {
+  color:red;
+}
