@@ -19,7 +19,19 @@ div.jumbotron {
     background-color:#c2d5e8;
 }
 
-/*About Page */
+/*Media Query */
+@media (min-width: 500px) {
+     h5::before {
+         content: "Welcome! Thanks for visting my Project-0 Landing Page.  Please explore to find a bit more about me, my educational background, and my professional experience.";
+    }
+}
+ @media (max-width: 499px) {
+     h5::before {
+         content: "Thanks for visting my Project-0 Page!";
+    }
+}
+
+/*About Me Page */
 .page_title {
     font-family: 'Lobster', cursive;
     font-size: 60px;
@@ -30,7 +42,6 @@ div.jumbotron {
     float: right
 }
 
-/*About Me Page */
 div.col-sm-12 h1 {
     font-weight: bold;
     font-style: italic
